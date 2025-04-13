@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>八皇后问题可视化</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title-container">八皇后问题可视化</h1>
+        <div class="game-area" id="game-area-container">
+            <div class="chessboard">
+                <!-- 棋盘将通过JavaScript动态生成 -->
+            </div>
+            <div class="info-panel">
+                <div class="status">当前状态：准备开始</div>
+                <div class="controls">
+                    <button id="startBtn">开始求解</button>
+                </div>
+                <div class="solution-info">
+                    <p>已找到解法：<span id="solutionCount">0</span></p>
+                    <p>当前尝试：<span id="attemptCount">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
